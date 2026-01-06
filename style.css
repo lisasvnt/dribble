@@ -1,7 +1,7 @@
 /* Générale*/
-body{
-    color: black;
-    font-family: Outfit;
+body {
+  color: black;
+  font-family: Outfit;
 }
 
 a {
@@ -11,97 +11,105 @@ a {
 
 /* Logo */
 .write-logo {
-    max-width: 120px;
+  max-width: 120px;
 }
 
 /* Navbar */
 
-nav{
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    display: flex;
-    align-items: center;
+nav {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
 }
 
-.flex-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 100px;
+.flex-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
 }
 
-.flex-wrapper-space-between{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+.flex-wrapper-space-between {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 
-.nav-button{
-    background-color: transparent;
-    color: black;
-    border-color: transparent;
-    font-family: Outfit;
-    font-size: 20px;
+.nav-button {
+  background-color: transparent;
+  color: black;
+  border-color: transparent;
+  font-family: Outfit;
+  font-size: 20px;
 }
 
-.log-in-button{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    font-family: Outfit;
-    border-color: transparent;
-    border-radius: 100px;
-    padding: 10px;
+.log-in-button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: Outfit;
+  border-color: transparent;
+  border-radius: 100px;
+  padding: 10px;
 }
 
 footer {
   background-color: white;
-  width: 100%;
   height: 10vh;
-  padding: 0 15%;
+  padding: 0 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: small;
 }
 
 .main_links {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   font-weight: 600;
 }
 
+.main_links button {
+  width: 120px;
+  background-color: white;
+  border: none;
+}
+
 .main_links img {
-  width: 4em;
+  width: 120px;
 }
 
 .external_links {
   width: 4em;
-  height: 1em;
   display: flex;
   flex-direction: row;
   gap: 6px;
 }
 
 .external_links img {
-  width: 0.8em;
+  width: 1em;
 }
 
 .underlinks {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: gray;
+  font-weight: 300;
 }
 
 .underlinks div {
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
