@@ -12,6 +12,12 @@ a {
 /* Logo */
 .write-logo {
   max-width: 120px;
+  transition: ease-in-out 0.5s;
+}
+
+.write-logo:hover {
+  cursor: pointer;
+  opacity: 80%;
 }
 
 /* Navbar */
