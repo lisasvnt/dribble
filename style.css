@@ -1,7 +1,8 @@
 /* Générale*/
 body {
-  color: black;
+  color: #0E0C21;
   font-family: Outfit;
+  font-size: 14px;
 }
 
 a {
@@ -50,17 +51,128 @@ nav {
   color: black;
   border-color: transparent;
   font-family: Outfit;
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .log-in-button {
   background-color: black;
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   font-family: Outfit;
   border-color: transparent;
   border-radius: 100px;
-  padding: 10px;
+  padding: 8px 15px;
+}
+
+/* Header */
+
+header{
+    padding: 40px;
+    height: 80vh;
+}
+
+.column-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 45%;
+}
+
+.column-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+}
+
+
+h1{
+    font-size: 50px;
+    max-width: 60%;
+    padding: 0px;
+    margin:0px;
+}
+
+.header-text{
+    max-width: 80%;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.flex-wrapper-left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+}
+
+.tag{
+    border-radius: 100px;
+    padding: 8px 20px;
+    transition: ease-in-out 0.5s;
+    font-weight: 600px;
+}
+
+.tag:hover{
+    background-color:#f3f3f6;
+    cursor: pointer;
+}
+
+.tag-highlited{
+    border-radius: 100px;
+    background-color: #393545;
+    color: white;
+    padding: 8px 20px;
+    transition: ease-in-out 0.5s;
+}
+
+.tag-highlited:hover{
+    cursor: pointer;
+}
+
+.search-box{
+    background-color: #f3f3f6;
+    border-radius: 100px;
+    padding: 4px 20px;
+    font-size: 14px;
+    color: #0e0c2173;
+    transition: ease-in-out 0.5s;
+}
+
+.search-box:hover{
+    background-color: transparent;
+    border: 1px solid #f3f3f6;
+    cursor: text;
+}
+
+.search-icon{
+    background-color: #cf5987;
+    border-radius: 100px;
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.other-tag{
+    border-radius: 100px;
+    border: 1px solid #f3f3f6;
+    padding: 5px 20px;
+    transition: ease-in-out 0.5s;
+    font-size: 12px;
+}
+
+.other-tag:hover{
+    background-color: #f3f3f6;
+    cursor: pointer;
+}
+
+
+.header-img{
+    max-width: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
 }
 
 /* Main parts */
