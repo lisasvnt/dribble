@@ -63,6 +63,113 @@ nav {
   padding: 10px;
 }
 
+/* Main parts */
+main {
+  padding: 0 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+aside {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.preference_selection {
+  border: 1px solid rgb(200, 199, 199);
+  border-radius: 6px;
+  background-color: transparent;
+  padding: 8px 20px;
+  font-size: 16px;
+}
+
+.main_filter {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main_filter button {
+  border: transparent;
+  background-color: transparent;
+  padding: 9px 16px;
+  border-radius: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.main_filter button:hover {
+  color: rgb(52, 51, 51);
+}
+
+.main_filter button:first-child {
+  background-color: rgb(246, 246, 246);
+}
+
+.filtering_button {
+  border: 1px solid rgb(200, 199, 199);
+  border-radius: 24px;
+  background-color: transparent;
+  padding: 8px 25px;
+  font-size: 16px;
+}
+
+article {
+  padding: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.design_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.design_card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.legend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.legend div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.vue_count img {
+  width: 10px;
+  height: 10px;
+}
+
+.type_of_user {
+  padding: 3px;
+  background-color: rgb(219, 217, 217);
+  border-radius: 6px;
+  color: white;
+  font-size: 8px;
+  font-weight: 500;
+}
+
+/* Footer */
+
 footer {
   background-color: white;
   height: 10vh;
